@@ -1,0 +1,70 @@
+.Counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.Counter p {
+    color: #f00f0fcb;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    appearance: none;
+    margin: 0; 
+}
+
+.decrement,
+.increment {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    background: #fff;
+    color: #B24242;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #B24242;
+    cursor: pointer;
+}
+
+.decrement {
+    border-radius: 10px 0 0 10px;
+    border-right: none;
+}
+
+.increment {
+    border-radius: 0 10px 10px 0;
+    border-left: none;
+}
+
+.decrement:hover,
+.increment:hover {
+    background: #B24242;
+    color: #fff;
+}
+
+.decrement:link,
+.increment:link {
+    color: #8184a1;
+}
+
+.decrement:visited,
+.increment:visited {
+    color: #fff;
+}
+
+.counter_input {
+    width: 60px;
+    height: 48px;
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border: 1px solid #B24242;
+    background: #FBE8E8;
+    color: #B24242;
+    outline: 0;
+  }
