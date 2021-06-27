@@ -1,7 +1,7 @@
 import { useState,useEffect,Fragment } from 'react';
 import classes from './Counter.module.css';
 
-const Counter = props => {
+const Counter = () => {
 
     const [MIN_VALUE] = useState(8);
     const [MAX_VALUE] = useState(800);

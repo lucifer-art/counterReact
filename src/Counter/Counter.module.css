@@ -45,16 +45,6 @@ input[type=number]::-webkit-outer-spin-button {
     color: #fff;
 }
 
-.decrement:link,
-.increment:link {
-    color: #8184a1;
-}
-
-.decrement:visited,
-.increment:visited {
-    color: #fff;
-}
-
 .counter_input {
     width: 60px;
     height: 48px;
